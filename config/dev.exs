@@ -24,8 +24,11 @@ config :ken, KenWeb.Endpoint,
   debug_errors: true,
   secret_key_base: "cqWblcnrAGS9MF34IP5blbSbixaUlGbBpoZSXUapVS683mA9eqoKoTh3XAJJZi7O",
   watchers: [
-    # Start the esbuild watcher by calling Esbuild.install_and_run(:default, args)
-    esbuild: {Esbuild, :install_and_run, [:default, ~w(--sourcemap=inline --watch)]}
+    node: [
+      "build.js",
+      cd: Path.expand("../assets", __DIR__),
+      env: %{"ESBUILD_LOG_LEVEL" => "silent", "ESBUILD_WATCH" => "1"}
+    ]
   ]
 
 # ## SSL Support

@@ -2,6 +2,10 @@ defmodule KenWeb.PostController do
   use KenWeb, :controller
   alias Ken.Posts
 
+  def index(conn, _) do
+    render(conn, "index.html")
+  end
+
   def create(conn, %{"post" => post_params}) do
     {:ok, post} = Posts.create_post(post_params)
     conn
