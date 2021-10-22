@@ -1,6 +1,9 @@
 // We import the CSS which is extracted to its own file by esbuild.
 // Remove this line if you add a your own CSS build pipeline (e.g postcss).
 import "../css/app.css"
+import Vue from "vue/dist/vue.esm.js" // runtime + compiler
+
+window.Vue = Vue;
 
 // If you want to use Phoenix channels, run `mix help phx.gen.channel`
 // to get started and then uncomment the line below.

@@ -1,6 +1,10 @@
 defmodule KenWeb.Router do
   use KenWeb, :router
 
+  pipeline :browser do
+    plug :accepts, ~w(html json)
+  end
+
   pipeline :api do
     plug :accepts, ["json"]
   end
@@ -25,6 +29,12 @@ defmodule KenWeb.Router do
     get "/post/:id", PostController, :show
     put "/post/:id/update", PostController, :update
     delete "/post/:id", PostController, :delete
+  end
+
+  scope "/", KenWeb do
+    pipe_through :browser
+
+    get "/", PostController, :index
   end
 
   # Enables LiveDashboard only for development
