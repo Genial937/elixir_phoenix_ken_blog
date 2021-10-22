@@ -1,19 +1,72 @@
 <section>
- <div class="container p-3">
-   <div class="row">
-     <div class="col-md-8 offset-md-2">
-      <div class="card shadow">
-         <div class="card-body">
-         <div class="row">
-           <div class="col-md-4">Image</div>
-           <div class="col-md-8">
-            <h2>Blog Title</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis turpis semper, convallis nisi vel, malesuada arcu. Cras sed purus tristique, sodales felis sit amet, congue nunc. Mauris id risus id libero ornare mattis. In tempor leo in fermentum tincidunt. In vitae mi congue, pharetra purus mattis, rutrum elit. Etiam feugiat lorem vitae ex feugiat hendrerit. Pellentesque in suscipit eros...</p>
-           </div>
-         </div>
-         </div>
+  <div class="container p-3">
+    <div class="row">
+      <div class="col-md-8 offset-md-2">
+        <div class="card shadow p-0 mt-2">
+          <div class="card-body p-0">
+            <div class="row">
+              <div class="col-md-4">
+                <img src="images/download.jpeg" style="width: 100%; height: 30vh"/>
+              </div>
+              <div class="col-md-8 p-2">
+                <h3>Blog Title</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis turpis semper, convallis nisi vel, malesuada arcu. Cras sed purus tristique, sodales felis sit amet, congue nunc. Mauris id risus id libero ornare mattis...</p>
+              </div>
+              <div class="col-md-12 text-right pr-4 pt-1 pb-1 text-white">
+                <a class="btn btn-success btn-sm">Read more...</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card shadow p-0 mt-2">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="images/download.jpeg" style="width: 100%; height: 30vh"/>
+            </div>
+            <div class="col-md-8 p-2">
+              <h3>Blog Title</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis turpis semper, convallis nisi vel, malesuada arcu. Cras sed purus tristique, sodales felis sit amet, congue nunc. Mauris id risus id libero ornare mattis...</p>
+            </div>
+            <div class="col-md-12 text-right pr-4 pt-1 pb-1 text-white">
+              <a class="btn btn-success btn-sm">Read more...</a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="card shadow p-0 mt-2">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="images/download.jpeg" style="width: 100%; height: 30vh"/>
+            </div>
+            <div class="col-md-8 p-2">
+              <h3>Blog Title</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis turpis semper, convallis nisi vel, malesuada arcu. Cras sed purus tristique, sodales felis sit amet, congue nunc. Mauris id risus id libero ornare mattis...</p>
+            </div>
+            <div class="col-md-12 text-right pr-4 pt-1 pb-1 text-white">
+              <a class="btn btn-success btn-sm">Read more...</a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="card shadow p-0 mt-2">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="images/download.jpeg" style="width: 100%; height: 30vh"/>
+            </div>
+            <div class="col-md-8 p-2">
+              <h3>Blog Title</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis turpis semper, convallis nisi vel, malesuada arcu. Cras sed purus tristique, sodales felis sit amet, congue nunc. Mauris id risus id libero ornare mattis...</p>
+            </div>
+            <div class="col-md-12 text-right pr-4 pt-1 pb-1 text-white">
+              <a class="btn btn-success btn-sm">Read more...</a>
+            </div>
+          </div>
+        </div>
+
       </div>
-     </div>
-   </div>
- </div>
+    </div>
+  </div>
+
 </section>

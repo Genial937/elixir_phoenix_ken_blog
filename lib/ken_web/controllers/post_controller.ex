@@ -2,7 +2,7 @@ defmodule KenWeb.PostController do
   use KenWeb, :controller
   alias Ken.Posts
 
-  def index(conn, _) do
+  def home(conn, _) do
     render(conn, "index.html")
   end
 

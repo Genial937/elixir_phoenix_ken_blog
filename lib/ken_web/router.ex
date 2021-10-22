@@ -34,10 +34,11 @@ defmodule KenWeb.Router do
   scope "/", KenWeb do
     pipe_through :browser
 
-    get "/", PostController, :index
+    get "/", PostController, :home
+    get "/login", LoginController, :index
   end
 
-  # Enables LiveDashboard only for development
+  # Enables LiveDasindehboard only for development
   #
   # If you want to use the LiveDashboard in production, you should put
   # it behind authentication and allow only admins to access it.
